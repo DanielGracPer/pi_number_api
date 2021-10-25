@@ -1,0 +1,28 @@
+{
+  "name": "pi_number_api",
+  "version": "1.0.0",
+  "description": "'A simple API to get information on the number pi, such as the value of any number in the string of the number pi.'",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielGracPer/pi_number_api.git"
+  },
+  "keywords": [
+    "'pi",
+    "js",
+    "C++",
+    "api'"
+  ],
+  "author": "Daniel G. Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielGracPer/pi_number_api/issues"
+  },
+  "homepage": "https://github.com/DanielGracPer/pi_number_api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
