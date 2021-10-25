@@ -8,10 +8,10 @@ const port = 3000
 
 //Routes
 app.get('/',(req,res)=>{
-    res.send('Hello World!!!')
+    res.sendFile('C:\\Users\\danie\\Projects\\pi_number_api\\src\\views\\contents\\index.html')
 })
 
-app.use(express.static('public'))
+app.use(express.static('C:\\Users\\danie\\Projects\\pi_number_api\\public'))
 app.use('/pi-number', piNumber)
 
 //Others
